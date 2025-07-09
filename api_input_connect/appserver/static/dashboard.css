@@ -1,0 +1,7 @@
+input[class*="TextStyles__StyledInput"] {
+    all: unset; /* Reset all inherited styles from bootstrap */
+    width: 100%;
+}
+input[class*="OptionStyles__StyledRadioInput"] {
+    width: 20px
+}
