@@ -1,0 +1,33 @@
+<form hideEdit="true" version="1.1" script="client/index.js" stylesheet="dashboard.css">
+  <label>Home</label>
+  <fieldset submitButton="false"></fieldset>
+  <row>
+    <panel>
+      <html>
+        <div data-dashboard="home">loading...</div>
+      </html>
+    </panel>
+  </row>
+  <row> 
+    <panel>
+      <title>App Runner Status</title>
+      <input type="time" token="time">
+        <label></label>
+        <default>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </default>
+      </input>
+      <chart>
+        <search>
+          <query>index=_internal sourcetype="api_connect" | stats count by log_level</query>
+          <earliest>$time.earliest$</earliest>
+          <latest>$time.latest$</latest>
+        </search>
+        <option name="charting.chart">pie</option>
+        <option name="charting.drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </chart>
+    </panel>
+  </row>
+</form >

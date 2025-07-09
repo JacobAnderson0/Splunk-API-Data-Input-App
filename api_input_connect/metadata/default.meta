@@ -1,0 +1,6 @@
+[]
+access = read : [ * ], write : [ admin ]
+
+[views/*]
+access = read : [ * ]
+export = none

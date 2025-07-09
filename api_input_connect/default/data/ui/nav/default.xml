@@ -1,0 +1,4 @@
+<nav>
+  <view name="home" label="home" />
+  <view name="add_new_input" label="Add New Data" />
+</nav>
