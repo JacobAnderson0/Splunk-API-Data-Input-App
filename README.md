@@ -16,7 +16,7 @@ This Splunk app simplifies the data onboarding process, especially for non-techn
 ## 🖼️ App Pages Overview
 
 <p align="center">
-  <a href="images/demo.mp4" target="_blank">
+  <a href="https://jacobanderson-public.s3.us-east-1.amazonaws.com/demo.mp4" target="_blank">
     <img src="https://img.shields.io/badge/Watch-Demo-blue?style=for-the-badge" alt="Watch Demo"/>
   </a>
 </p>
