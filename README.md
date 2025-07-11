@@ -5,7 +5,6 @@
 
 This Splunk app simplifies the data onboarding process, especially for non-technical users. It allows users to fetch data from APIs and store it into Splunk KV Stores, with an intuitive UI to preview, pre-process, and manage inputs.
 
-
 ## 🧩 Key Features
 
 - 🔌 Easily onboard data from APIs via a simple form.
@@ -14,8 +13,13 @@ This Splunk app simplifies the data onboarding process, especially for non-techn
 - 💾 Store the resulting data in Splunk KV Stores.
 - 🚀 Designed to be extensible — future support for more input types planned.
 
-
 ## 🖼️ App Pages Overview
+
+<p align="center">
+  <a href="images/demo.mp4" target="_blank">
+    <img src="https://img.shields.io/badge/Watch-Demo-blue?style=for-the-badge" alt="Watch Demo"/>
+  </a>
+</p>
 
 ### 🏠 Home Page
 
@@ -29,20 +33,17 @@ Use this form to define a new API endpoint and preview the data.
 
 ![New Input](images/new-input.png)
 
-
 ### ✏️ Edit an Existing API Input
 
 Modify existing API input settings, such as the endpoint URL or filtering rules.
 
 ![Edit Input](images/edit-input.png)
 
-
 ### 🔧 Input Action Menu
 
 View the KV Store contents or delete the input.
 
 ![View Data](images/view-data-from-input.png)
-
 
 ### 📦 Packaging the App
 
@@ -64,10 +65,9 @@ To create a distributable `.tar.gz` file of this Splunk app, use the provided pa
 
         Apps > Manage Apps > Install app from file**
 
-
 ## 🛠️ Installation
-The app package is located here [api_input_connect.tar.gz](api_input_connect.tar.gz)
 
+The app package is located here [api_input_connect.tar.gz](api_input_connect.tar.gz)
 
 ## 🔄 Roadmap
 
@@ -79,9 +79,6 @@ Planned features include:
 - 🧩 Push data directly to indexes or other output types
 - 🔌 Convert script to a modular input to be Splunk Cloud friendly
 
-
 ## 📣 Feedback & Contributions
 
 Have ideas? Found a bug? Want to contribute? Let us know! This app is meant to grow.
-
-
